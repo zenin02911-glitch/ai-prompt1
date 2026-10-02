@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #090a0f;
+  color: #f3f4f6;
+}
+
+/* Custom scrollbars for high-density operations view */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #11131a;
+}
+::-webkit-scrollbar-thumb {
+  background: #232733;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #32384a;
+}

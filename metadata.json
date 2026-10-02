@@ -1,0 +1,8 @@
+{
+  "name": "NovaCart ShelfPulse",
+  "description": "Partner-store fulfillment portal, smart substitution engine, and inventory reliability guard for hyper-local retail.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
